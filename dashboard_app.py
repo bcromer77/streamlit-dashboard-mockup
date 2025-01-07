@@ -4,13 +4,13 @@ import plotly.express as px
 import numpy as np
 
 # Set up page configuration
-st.set_page_config(page_title="Dynamic Advertiser Integration Dashboard", layout="wide")
+st.set_page_config(page_title="MerchandiseMetrics Dashboard", layout="wide")
 
 # Title Section
-st.title("Dynamic Advertiser Integration")
+st.title("MerchandiseMetrics")
 
 # Subheader for explanation
-st.subheader("Real-time insights into ad performance and sponsorship ROI.")
+st.subheader("Real-time insights into merchandise performance and sponsorship ROI.")
 
 # Create mock data
 sponsors = ["Nike", "Adidas", "Coca-Cola", "Pepsi", "Puma"]
@@ -22,7 +22,7 @@ merch_sales = [1000, 1200, 800, 500, 600]
 # Metrics Section
 st.markdown("### Key Performance Metrics")
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Caitlin Clark ROI", "25%")
+col1.metric("Top Sponsor ROI", "35% (Puma)")
 col2.metric("Live Mentions", "500")
 col3.metric("Social Posts", "200")
 col4.metric("Merch Sales", "$1K")
@@ -89,9 +89,10 @@ with col2:
 
 # Call-to-Action Section
 st.markdown("### Explore Opportunities")
-st.button("Sponsor Caitlin Clark")
-st.button("Buy Now - Advertiser Insights")
+st.button("Partner with Top Sponsors")
+st.button("View Merchandise Insights")
 
 # Footer Section
 st.markdown("---")
-st.markdown("© 2025 Dynamic Advertiser Integration Dashboard")
+st.markdown("© 2025 MerchandiseMetrics Dashboard")
+§
